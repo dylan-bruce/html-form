@@ -1,0 +1,19 @@
+body {
+    padding: 10px;
+  }
+  
+input {
+    margin: 5px;
+    width: 25%;
+    padding: 12px 20px;
+  }
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid;
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
